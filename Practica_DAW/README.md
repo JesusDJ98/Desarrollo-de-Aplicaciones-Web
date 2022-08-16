@@ -26,4 +26,4 @@ Librerias necesarias: <br>
 
 **Modelado del Sistema**
 
-![Casos](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/Modelado.JPG)
+![Modelado](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/Modelado.JPG)
