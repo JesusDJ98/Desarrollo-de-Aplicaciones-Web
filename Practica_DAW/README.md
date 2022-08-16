@@ -15,7 +15,7 @@ Librerias necesarias:
 
 ![Login](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/Practica_DAW/Imagenes/Login.JPG)
 
-![Video](tps://universidadhuelvamy.sharepoint.com/:v:/g/personal/jesus_delgado742_alu_uhu_es/ESFGpzZgeJBOgD5ttvoVJ50
+![Video](https://universidadhuelvamy.sharepoint.com/:v:/g/personal/jesus_delgado742_alu_uhu_es/ESFGpzZgeJBOgD5ttvoVJ50
 B-nelf46Nv3Pc2dWx93zd5g?e=tIp9Lf)
 
 
