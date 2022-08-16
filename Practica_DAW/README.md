@@ -1,27 +1,29 @@
 # Diseño de una aplicacion web
 
 Herramienta: Eclipse
-Librerias necesarias:
-	Java EE8 API
-	EclipseLink(JPA 2.1)
-	JSTL 1.2.1
+<br>
+Librerias necesarias: <br>
+	1.Java EE8 API
+	2.EclipseLink(JPA 2.1)
+	3.JSTL 1.2.1
 
 
 
 
 **APP**
 
-![Inicio Vacio](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/Inicio.JPG)
+![Inicio Vacio](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/Inicio.JPG) ![Inicio con Datos](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/Inicio2.JPG)
 
-![Login](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/Practica_DAW/Imagenes/Login.JPG)
+
+![Login](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/Login.JPG)
 
 
 
 **Casos de USO**
 
-![Casos](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/Practica_DAW/Imagenes/CasosDeUso.JPG)
+![Casos](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/CasosDeUso.JPG)
 
 
 **Modelado del Sistema**
 
-![Modelo](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/Practica_DAW/Imagenes/Modelado.JPG)
+![Casos](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/Modelado.JPG)
