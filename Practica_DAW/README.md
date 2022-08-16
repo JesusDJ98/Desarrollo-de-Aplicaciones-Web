@@ -11,7 +11,7 @@ Librerias necesarias:
 
 **APP**
 
-![Inicio Vacio](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/Practica_DAW/Imagenes/Inicio.JPG) ![Inicio](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/Practica_DAW/Imagenes/Inicio2.JPG)
+![Inicio Vacio](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/tree/main/Practica_DAW/Imagenes/Inicio.JPG)
 
 ![Login](https://github.com/JesusDJ98/Desarrollo-de-Aplicaciones-Web/Practica_DAW/Imagenes/Login.JPG)
 
