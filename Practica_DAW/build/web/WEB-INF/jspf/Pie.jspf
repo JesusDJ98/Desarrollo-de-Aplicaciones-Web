@@ -1,0 +1,11 @@
+<%@page pageEncoding="UTF-8"%>
+<footer class="row">
+    <div class="col-12">
+        <div class="pie">
+            &copy; Jesús Delgado Jiménez, 2020
+        </div>
+        <div class="pie">
+            <b>webmaster: </b> jesus.delgado742@alu.uhu.es
+        </div>
+    </div>
+</footer>

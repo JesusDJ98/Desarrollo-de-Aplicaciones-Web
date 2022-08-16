@@ -1,0 +1,51 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="BD.Articulos"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<% ArrayList arti = (ArrayList) request.getAttribute("articulos"); %>
+
+<div>
+    <% if(arti.size() > 0) {%>
+        <% for(int contar = 0; contar < arti.size(); contar++){ %>
+             <% Articulos product = (Articulos)arti.get(contar); %>
+            <div class="elemento">
+                <div class="col-12 SeparacionMI">
+                    <div class="arribaP">
+                        <% String url = "/Practica_DAW/imagenes/"+ product.getId() +".jpg"; %>
+                        <img id="ImgFormInf" src="<%= url %>" alt="Imagen">
+                    </div>
+                </div>
+                <div class="parteAbajoP">
+                    <div class="dentroizqMIP">
+                        <label for="InfoNombre" class="DatosP"><b>Nombre: </b></label> <br>
+                        <label for="InfoCodP" class="DatosP"><b>Postal: </b></label> <br>
+                        <label for="InfoPrecio" class="DatosP"> <b>Precio: </b></label> <br>
+                    </div>
+                    <div class="dentroderMIP">
+                        <label for="RellenarNombre" class="DatosP"><%= product.getNombre() %></label> <br>
+                        <label for="RellenarCodP" class="DatosP"><%= product.getCreador().getPostal() %></label> <br>
+                        <label for="RellenarPrecio" class="DatosP"><%= product.getPrecio()%></label> <br>
+                    </div>
+                </div>
+                    
+                <div class="CamposPver">
+                    <% if (session.getAttribute("log") == "true") {%>
+                        <% String miref = (String)session.getAttribute("ref"); %>
+                        <% if(miref.equals("1")) {%>
+                            <td><a href="detalles?id=<%= product.getId()%>">Detalles</a></td>
+                            <td><a href="delFav?id=<%= product.getId()%>">-Favorito</a></td>
+                        <% }else { %>
+                            <td><a href="detalles?id=<%= product.getId()%>">Detalles</a></td>
+                            <td><a href="addFav?id=<%= product.getId()%>">+Favorito</a></td>
+                        <% } %>
+                    <% }else{ %>
+                        <td><a href="detalles?id=<%= product.getId()%>">Detalles</a></td>
+                    <% } %>
+
+                </div>
+            </div>
+
+         <% } %>
+    <% }else{ %>
+        <h5 class="text-center">No hay articulos disponibles</h5>
+    <% } %>
+</div>
